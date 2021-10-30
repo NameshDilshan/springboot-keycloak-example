@@ -1,0 +1,13 @@
+server:
+  port: 9090
+spring:
+  h2:
+    console:
+      enabled: true
+
+keycloak:
+  realm: namesh
+  auth-server-url: http://127.0.0.1:8180/auth
+  resource: springbootkeycloak
+  public-client: true
+  bearer-only: true
